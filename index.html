@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denzel Barroso - Portafolio</title>
+</head>
+<body>
+
+  <!-- Encabezado con nombre, lema e imagen -->
+  <header>
+    <h1>Denzel Barroso</h1>
+    <p>Apasionado por la tecnología, la innovación y el desarrollo de software</p>
+    <img src="avatar.jpg.jpeg" alt="Foto de Denzel Barroso" width="200">
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <ul>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#intereses">Intereses</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#multimedia">Presentación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy <strong>Denzel Barroso</strong>, estudiante de ingeniería en sistemas, con una fuerte pasión por la tecnología y el <em>desarrollo de software</em>. Me defino como una persona autodidacta, curiosa, y enfocada en mejorar continuamente.
+    </p>
+  </section>
+
+  <!-- Lista de intereses o logros -->
+  <section id="intereses">
+    <h2>Intereses y logros</h2>
+    <ul>
+      <li>📱 Desarrollo de aplicaciones móviles  </li>
+      <li>🧠 Inteligencia Artificial  </li>
+      <li>☁️ Configuración de servidores </li>
+      <li>🛠 Automatización de tareas </li>
+    </ul>
+  </section>
+
+  <!-- Tabla de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Tecnología</th>
+          <th>Nivel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Algoritmo</td>
+          <td>Novato</td>
+        </tr>
+        <tr>
+          <td>HTML5</td>
+          <td>Novato</td>
+        </tr>
+        
+        <tr>
+          <td>Java</td>
+          <td>Novato</td>
+        </tr>
+        <tr>
+          <td>Base de datos</td>
+          <td>Novato</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Siempre en crecimiento y aprendizaje continuo</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <!-- Multimedia: audio de presentación -->
+  <section id="multimedia">
+    <h2>Presentación Personal</h2>
+    <p>Escucha una breve presentación sobre mí:</p>
+    <audio controls>
+      <source src="presentacion.mp3.wav" type="audio/mpeg">
+      Tu navegador no soporta el audio.
+    </audio>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" value="Denzel Barroso" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="1" max="100" required><br><br>
+
+      <label for="genero">Género:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Seleccione</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select><br><br>
+
+      <label>Intereses:</label><br>
+      <input type="checkbox" name="intereses" value="programacion"> Programación<br>
+      <input type="checkbox" name="intereses" value="ia"> Inteligencia Artificial<br>
+      <input type="checkbox" name="intereses" value="web"> Desarrollo Web<br><br>
+
+      <label for="comentarios">Comentarios:</label><br>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="40" required></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Denzel Barroso. Todos los derechos reservados.</p>
+    <p>Sígueme en:
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/" target="_blank">facebook</a> |
+      <a href="https://github.com/" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
